@@ -1,6 +1,8 @@
 # bidi-and-liberator
 
-A project.
+A simple example webservice using[bidi](https://github.com/juxt/bidi) and [Liberator](https://github.com/clojure-liberator/liberator/).
+
+Also uses [component](https://github.com/stuartsierra/component) and [timbre](https://github.com/ptaoussanis/timbre).
 
 ## Copyright and License
 
