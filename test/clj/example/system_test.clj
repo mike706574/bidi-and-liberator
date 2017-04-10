@@ -1,11 +1,11 @@
-(ns bidi-and-liberator.system-test
+(ns example.system-test
   (:require [clojure.test :refer :all]
             [com.stuartsierra.component :as component]
             [clj-http.client :as http]
-            [bidi-and-liberator.system :as system]
+            [example.system :as system]
             [clojure.data.json :as json]))
 
-(def config {:id "bidi-and-liberator" :port 8081})
+(def config {:id "example" :port 8081})
 
 (defmacro with-system
   [& body]

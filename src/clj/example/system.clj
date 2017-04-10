@@ -1,11 +1,11 @@
-(ns bidi-and-liberator.system
+(ns example.system
   (:require [clojure.string :refer [blank?]]
             [com.stuartsierra.component :as component]
             [taoensso.timbre :as log]
             [ring.adapter.jetty :refer [run-jetty]]
             [liberator.core :refer [defresource]]
             [bidi.ring :refer (make-handler)]
-            [bidi-and-liberator.service :refer [jetty-service]])
+            [example.service :refer [jetty-service]])
   (:gen-class :main true))
 
 (defresource hello-world
