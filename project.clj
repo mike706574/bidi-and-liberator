@@ -1,10 +1,10 @@
 (defproject mike/bidi-and-liberator "0.0.1-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [com.taoensso/timbre "4.8.0"]
-                 [com.stuartsierra/component "0.3.1"]
+                 [com.stuartsierra/component "0.3.2"]
                  [environ "1.1.0"]
-                 [ring/ring-core "1.5.0"]
-                 [ring/ring-jetty-adapter "1.5.0"]
+                 [ring/ring-core "1.5.1"]
+                 [ring/ring-jetty-adapter "1.5.1"]
                  [liberator "0.14.1"]
                  [bidi "2.0.16"]]
   :source-paths ["src/clj"]
